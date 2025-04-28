@@ -15,8 +15,8 @@ so_long est un projet du cursus 42 qui consiste à créer un petit jeu en 2D en 
 git clone https://github.com/sbr93z/so_long.git
 cd so_long
 make
-
-Utilisation
+```
+## Utilisation
 ```bash
 Lancer le jeu avec une carte :
 
