@@ -6,7 +6,7 @@
 /*   By: sferrad <sferrad@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/02 16:57:56 by sferrad           #+#    #+#             */
-/*   Updated: 2025/01/18 16:27:50 by sferrad          ###   ########.fr       */
+/*   Updated: 2025/04/28 17:39:06 by sferrad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,11 @@ int	main(int ac, char **av)
 		return (0);
 	player = ft_init_player(&map);
 	data = init_data(&map, player);
+	if (!data)
+	{
+		ft_free_maps(map.map);
+		return (0);
+	}
 	if (textures_init(data) == -1)
 	{
 		on_destroy(data);
