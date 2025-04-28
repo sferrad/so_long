@@ -24,7 +24,7 @@ Lancer le jeu avec une carte :
 ```
 Les déplacements se font au clavier (W, A, S, D).
 
-Fichiers
+## Fichiers
 
 includes/so_long.h : Header principal du projet.
 
@@ -52,7 +52,7 @@ libft/ : Ma bibliothèque personnelle (libft incluse avec ft_printf et get_next_
 
 Makefile : Fichier pour compiler et nettoyer le projet.
 
-Commandes Makefile
+## Commandes Makefile
 ```bash
 make : Compile les programmes.
 
@@ -62,7 +62,7 @@ make fclean : Supprime les fichiers objets et les exécutables.
 
 make re : fclean puis make.
 ```
-Fonctionnement
+## Fonctionnement
 
 Le programme charge la carte en mémoire.
 
